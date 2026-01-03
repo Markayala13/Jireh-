@@ -124,10 +124,10 @@ export function Contact() {
                     className="w-full px-0 py-3 bg-transparent border-0 border-b border-[#e8e4dc] text-[#1a1a1a] focus:border-[#a65d3f] focus:outline-none transition-colors duration-300"
                   >
                     <option value="">Select a service</option>
-                    <option value="stucco">Stucco Services</option>
-                    <option value="tile">Tile Installation</option>
-                    <option value="concrete">Decorative Concrete & Driveways</option>
-                    <option value="landscaping">Landscaping</option>
+                    <option value="decking">Custom Decking</option>
+                    <option value="fencing">Quality Fencing</option>
+                    <option value="ceramic">Ceramic Tile Installation</option>
+                    <option value="flooring">Professional Flooring</option>
                     <option value="multiple">Multiple Services</option>
                   </select>
                 </div>
@@ -154,7 +154,7 @@ export function Contact() {
                   type="submit"
                   className="group flex items-center gap-3 text-[13px] tracking-[0.15em] uppercase text-[#f8f6f1] bg-[#1a1a1a] px-8 py-4 hover:bg-[#a65d3f] transition-all duration-500 mt-8"
                 >
-                  Get FREE Stucco Estimate
+                  Get FREE Estimate
                   <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300" />
                 </button>
               </form>
@@ -176,40 +176,38 @@ export function Contact() {
                   </h3>
 
                   <div className="space-y-8">
-                    <a href="tel:2068985540" className="flex items-start gap-4 group">
+                    <a href="tel:4256153720" className="flex items-start gap-4 group">
                       <div className="w-12 h-12 border border-[#333] flex items-center justify-center group-hover:border-[#a65d3f] transition-colors duration-300">
                         <Phone className="w-5 h-5 text-[#a65d3f]" />
                       </div>
                       <div>
                         <div className="text-[11px] tracking-[0.15em] uppercase text-[#6b6560] mb-1">Call Us</div>
                         <div className="text-[#f8f6f1] text-lg group-hover:text-[#a65d3f] transition-colors duration-300">
-                          (206) 898-5540
+                          (425) 615-3720
                         </div>
                       </div>
                     </a>
 
-                    <a href="mailto:bravoconstruction16@gmail.com" className="flex items-start gap-4 group">
+                    <a href="tel:2532981154" className="flex items-start gap-4 group">
                       <div className="w-12 h-12 border border-[#333] flex items-center justify-center group-hover:border-[#a65d3f] transition-colors duration-300">
-                        <Mail className="w-5 h-5 text-[#a65d3f]" />
+                        <Phone className="w-5 h-5 text-[#a65d3f]" />
                       </div>
                       <div>
-                        <div className="text-[11px] tracking-[0.15em] uppercase text-[#6b6560] mb-1">Primary Email</div>
+                        <div className="text-[11px] tracking-[0.15em] uppercase text-[#6b6560] mb-1">Alternative Phone</div>
                         <div className="text-[#f8f6f1] text-lg group-hover:text-[#a65d3f] transition-colors duration-300">
-                          bravoconstruction16@gmail.com
+                          (253) 298-1154
                         </div>
                       </div>
                     </a>
 
-                    <a href="mailto:aracelyfernandez399@gmail.com" className="flex items-start gap-4 group">
+                    <a href="mailto:Jirehdeckings2022@gmail.com" className="flex items-start gap-4 group">
                       <div className="w-12 h-12 border border-[#333] flex items-center justify-center group-hover:border-[#a65d3f] transition-colors duration-300">
                         <Mail className="w-5 h-5 text-[#a65d3f]" />
                       </div>
                       <div>
-                        <div className="text-[11px] tracking-[0.15em] uppercase text-[#6b6560] mb-1">
-                          Customer Service
-                        </div>
+                        <div className="text-[11px] tracking-[0.15em] uppercase text-[#6b6560] mb-1">Email Us</div>
                         <div className="text-[#f8f6f1] text-lg group-hover:text-[#a65d3f] transition-colors duration-300 break-all">
-                          aracelyfernandez399@gmail.com
+                          Jirehdeckings2022@gmail.com
                         </div>
                       </div>
                     </a>
@@ -219,11 +217,11 @@ export function Contact() {
                         <MapPin className="w-5 h-5 text-[#a65d3f]" />
                       </div>
                       <div>
-                        <div className="text-[11px] tracking-[0.15em] uppercase text-[#6b6560] mb-1">Service Area</div>
+                        <div className="text-[11px] tracking-[0.15em] uppercase text-[#6b6560] mb-1">Address</div>
                         <div className="text-[#f8f6f1] text-lg">
-                          All of San Diego County
+                          108 163rd St S
                           <br />
-                          <span className="text-[#6b6560] text-base">Specialized in coastal areas</span>
+                          <span className="text-[#6b6560] text-base">Spanaway, WA 98387</span>
                         </div>
                       </div>
                     </div>
@@ -233,9 +231,9 @@ export function Contact() {
                 <div className="mt-12 pt-8 border-t border-[#333]">
                   <div className="text-[11px] tracking-[0.15em] uppercase text-[#6b6560] mb-4">Experience</div>
                   <div className="flex flex-wrap gap-4 text-sm text-[#c4bdb2]">
-                    <span>8+ Years Company</span>
+                    <span>20+ Years Experience</span>
                     <span>•</span>
-                    <span>30+ Years Team Experience</span>
+                    <span>Licensed & Insured</span>
                     <span>•</span>
                     <span>Free Estimates</span>
                   </div>

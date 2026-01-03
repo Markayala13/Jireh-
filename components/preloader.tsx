@@ -32,8 +32,8 @@ export function Preloader() {
             className="relative"
           >
             <Image
-              src="/logobg.png"
-              alt="Adrian Bravo - Stucco & Construction"
+              src="/logo/logo-removebg-preview.png"
+              alt="Jireh Decking & Fences"
               width={612}
               height={408}
               className="w-[300px] md:w-[400px] h-auto"

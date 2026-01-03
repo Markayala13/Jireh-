@@ -7,59 +7,80 @@ import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Stamped Concrete Patio with Rock Border",
-    category: "Concrete",
+    title: "Beautiful Kitchen Interior Design",
+    category: "Flooring",
     year: "2024",
-    image: "/assets/outdoor driveway/WhatsApp Image 2025-12-21 at 1.18.56 PM (1).jpeg",
+    image: "/floring/beautiful-kitchen-interior-design (1).jpg",
   },
   {
     id: 2,
-    title: "Large Format Outdoor Concrete Tile",
-    category: "Concrete",
+    title: "Modern Kitchen Flooring",
+    category: "Flooring",
     year: "2024",
-    image: "/assets/outdoor driveway/WhatsApp Image 2025-12-21 at 1.18.56 PM.jpeg",
+    image: "/floring/beautiful-kitchen-interior-design.jpg",
   },
   {
     id: 3,
-    title: "Decorative Stamped Concrete Pathway",
-    category: "Concrete",
+    title: "Hardwood Floors Living Room",
+    category: "Flooring",
     year: "2024",
-    image: "/assets/outdoor driveway/WhatsApp Image 2025-12-21 at 1.18.57 PM (1).jpeg",
+    image: "/floring/beautiful-living-room-interior-with-hardwood-floors-view-kitchen-dining-room-new-luxury-h.jpg",
   },
   {
     id: 4,
-    title: "Residential Concrete Driveway",
-    category: "Concrete",
+    title: "Clean Living Room Hardwood Floor",
+    category: "Flooring",
     year: "2024",
-    image: "/assets/outdoor driveway/WhatsApp Image 2025-12-21 at 1.18.57 PM.jpeg",
+    image: "/floring/clean-clean-living-room-with-hardwood-floor-fireplace.jpg",
   },
   {
     id: 5,
-    title: "Outdoor Kitchen Concrete Countertop",
-    category: "Concrete",
+    title: "Close-Up Wood Texture",
+    category: "Flooring",
     year: "2024",
-    image: "/assets/outdoor driveway/WhatsApp Image 2025-12-21 at 1.19.08 PM (1).jpeg",
+    image: "/floring/close-up-wood-texture.jpg",
   },
   {
     id: 6,
-    title: "Geometric Concrete Patio Design",
-    category: "Concrete",
+    title: "Home Renovate Wood Tile",
+    category: "Flooring",
     year: "2024",
-    image: "/assets/outdoor driveway/WhatsApp Image 2025-12-21 at 1.19.08 PM (2).jpeg",
+    image: "/floring/home-renovate-with-wood-tile.jpg",
   },
   {
     id: 7,
-    title: "Backyard Concrete Slab Installation",
-    category: "Concrete",
+    title: "Laminate Flooring Installation",
+    category: "Flooring",
     year: "2024",
-    image: "/assets/outdoor driveway/WhatsApp Image 2025-12-21 at 1.19.08 PM.jpeg",
+    image: "/floring/male-worker-puts-laminate-flooring-floor.jpg",
   },
   {
     id: 8,
-    title: "Decorative Paver Driveway & Landscape",
-    category: "Concrete",
+    title: "Modern Bathroom Blue Tiles",
+    category: "Flooring",
     year: "2024",
-    image: "/assets/outdoor driveway/WhatsApp Image 2025-12-21 at 1.38.23 PM.jpeg",
+    image: "/floring/modern-bathroom-design-with-blue-tiles-shower.jpg",
+  },
+  {
+    id: 9,
+    title: "Modern Empty Room",
+    category: "Flooring",
+    year: "2024",
+    image: "/floring/modern-empty-room.jpg",
+  },
+  {
+    id: 10,
+    title: "Contemporary Kitchen & Living Room",
+    category: "Flooring",
+    year: "2024",
+    image: "/floring/modern-interior-design-contemporary-kitchen-living-room.jpg",
+  },
+  {
+    id: 11,
+    title: "Modern Home Office Interior",
+    category: "Flooring",
+    year: "2024",
+    image: "/floring/room-interior-windows-with-empty-space-modern-home-office-summer-business-home.jpg",
   },
 ]
 
@@ -104,9 +125,9 @@ export function ConcreteProjects() {
               transition={{ duration: 1, delay: 0.2 }}
               className="font-serif text-4xl md:text-6xl lg:text-7xl text-[#1a1a1a] leading-[1.1]"
             >
-              Concrete &
+              Flooring
               <br />
-              <span className="italic text-[#a65d3f]">Driveways</span>
+              <span className="italic text-[#a65d3f]">projects</span>
             </motion.h2>
           </div>
         </div>

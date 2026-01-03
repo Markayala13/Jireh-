@@ -1,6 +1,5 @@
 "use client"
 import { ArrowUpRight } from "lucide-react"
-import Image from "next/image"
 
 export function Footer() {
   const scrollToSection = (id: string) => {
@@ -25,7 +24,7 @@ export function Footer() {
                 <span className="italic text-[#a65d3f]">your project?</span>
               </h2>
               <p className="text-[#6b6560] max-w-md">
-                Let's discuss your stucco, tile, concrete, or landscaping project and bring your vision to life.
+                Let's discuss your decking, fencing, ceramic tile, or flooring project and bring your vision to life.
               </p>
             </div>
             <button
@@ -41,23 +40,15 @@ export function Footer() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-12 py-16 md:py-24">
             {/* Brand */}
             <div className="lg:col-span-2">
-              <div className="mb-6">
-                <Image
-                  src="/logobg.png"
-                  alt="Adrian Bravo - Stucco & Construction"
-                  width={612}
-                  height={408}
-                  className="w-[450px] md:w-[600px] h-auto"
-                />
-              </div>
+              <h3 className="text-2xl font-serif text-[#f8f6f1] mb-6">Jireh Decking & Fences</h3>
               <p className="text-[#6b6560] max-w-sm leading-relaxed mb-8">
-                Professional stucco, tile, concrete, and landscaping services for San Diego County homeowners who demand
+                Professional decking, fencing, ceramic tile, and flooring services for Seattle homeowners who demand
                 quality craftsmanship.
               </p>
               <div className="flex gap-6 text-[11px] tracking-[0.15em] uppercase text-[#6b6560]">
-                <span>8+ Years</span>
+                <span>20+ Years</span>
                 <span>•</span>
-                <span>San Diego County</span>
+                <span>Spanaway, WA</span>
                 <span>•</span>
                 <span>Free Estimates</span>
               </div>
@@ -86,24 +77,32 @@ export function Footer() {
               <ul className="space-y-4">
                 <li>
                   <a
-                    href="mailto:bravoadrian877@gmail.com"
+                    href="tel:4256153720"
                     className="text-[#c4bdb2] hover:text-[#a65d3f] transition-colors duration-300 text-sm"
                   >
-                    bravoadrian877@gmail.com
+                    (425) 615-3720
                   </a>
                 </li>
                 <li>
                   <a
-                    href="mailto:aracelyfernandez399@gmail.com"
+                    href="tel:2532981154"
                     className="text-[#c4bdb2] hover:text-[#a65d3f] transition-colors duration-300 text-sm"
                   >
-                    aracelyfernandez399@gmail.com
+                    (253) 298-1154
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:Jirehdeckings2022@gmail.com"
+                    className="text-[#c4bdb2] hover:text-[#a65d3f] transition-colors duration-300 text-sm"
+                  >
+                    Jirehdeckings2022@gmail.com
                   </a>
                 </li>
                 <li className="pt-2 text-[#6b6560]">
-                  San Diego County
+                  108 163rd St S
                   <br />
-                  Coastal areas specialty
+                  Spanaway, WA 98387
                 </li>
               </ul>
             </div>
@@ -112,7 +111,7 @@ export function Footer() {
           {/* Bottom section - Updated copyright */}
           <div className="flex flex-col sm:flex-row justify-between items-center gap-6 pt-8 border-t border-[#333]">
             <div className="text-[#6b6560] text-sm">
-              © {new Date().getFullYear()} Adrian Bravo Stucco & Construction Services. All rights reserved.
+              © {new Date().getFullYear()} Jireh Decking & Fences. All rights reserved.
             </div>
             <button
               onClick={scrollToTop}

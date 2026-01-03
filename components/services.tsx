@@ -7,61 +7,61 @@ import { ArrowUpRight, Plus, Star } from "lucide-react"
 const services = [
   {
     id: "01",
-    title: "Expert Stucco Services",
-    subtitle: "Interior & Exterior",
+    title: "Custom Decking",
+    subtitle: "Residential & Commercial",
     description:
-      "We specialize in complete interior and exterior stucco services. Our expertise includes stucco repairs, plastering, and custom finishing techniques including smooth finish and sand finish. We work with both regular and acrylic estucco, handling every phase from latilla (black paper and mesh installation) through scratch and brown coat application to final textures. We create custom textures exactly as the client requests.",
-    image: "/professional-stucco-application-smooth-finish-exte.jpg",
+      "We specialize in custom deck design and installation for residential and commercial properties. Our expertise includes composite decking, wood decking, multi-level designs, and complete outdoor living spaces. From concept to completion, we create beautiful, durable decks that enhance your property's value and functionality.",
+    image: "/decking/charming-front-porch-with-rocking-chairs-plants.jpg",
     featured: true,
     details: [
-      "Interior & Exterior Stucco Installation",
-      "Stucco Repairs & Plastering",
-      "Smooth Finish & Sand Finish",
-      "Custom Texture Applications",
-      "Regular & Acrylic Estucco",
-      "Complete Process: Latilla, Scratch & Brown, Final Coat",
-      "FREE Estimates on All Stucco Projects",
+      "Custom Deck Design & Installation",
+      "Composite & Wood Decking",
+      "Multi-Level Deck Structures",
+      "Deck Repairs & Restoration",
+      "Railings & Stairs",
+      "Outdoor Living Spaces",
+      "FREE Estimates on All Deck Projects",
     ],
   },
   {
     id: "02",
-    title: "Professional Tile Installation",
-    subtitle: "All Surfaces",
+    title: "Quality Fencing",
+    subtitle: "All Styles & Materials",
     description:
-      "Complete interior and exterior tile installation services. We work with all tile materials including ceramic, porcelain, natural stone, and glass tile. Our services cover floors, walls, showers, kitchens, and any surface where tile can be installed. We accommodate custom designs and cuts to match your vision. We also install laminate and wood flooring.",
-    image: "/professional-tile-installation-ceramic-porcelain-b.jpg",
+      "Complete fencing services for residential and commercial properties. We work with all fence materials including wood, vinyl, chain-link, and composite. Our services cover privacy fences, decorative fencing, security fencing, and custom designs to match your property's aesthetic and functional needs.",
+    image: "/fences/fence-built-from-woodsecurity-privacy-concept.jpg",
     details: [
-      "Ceramic, Porcelain, Natural Stone, Glass Tile",
-      "Floors & Walls Installation",
-      "Shower & Kitchen Tiling",
-      "Custom Designs & Precision Cuts",
-      "Laminate & Wood Flooring",
-      "Interior & Exterior Applications",
+      "Wood, Vinyl, Chain-Link, Composite",
+      "Privacy & Security Fencing",
+      "Decorative Fence Designs",
+      "Fence Repairs & Replacement",
+      "Custom Gates & Access Points",
+      "Residential & Commercial Applications",
     ],
   },
   {
     id: "03",
-    title: "Decorative Concrete & Driveways",
-    subtitle: "Residential Concrete",
+    title: "Ceramic Tile Installation",
+    subtitle: "Interior & Exterior",
     description:
-      "Complete concrete services for decorative and paved driveways. We handle all concrete work around residential properties including sidewalks, walkways, driveways, and patios. Custom designs created to match your specifications.",
-    image: "/decorative-concrete-driveway-paving-residential-ho.jpg",
+      "Professional ceramic tile installation for all areas of your home or business. We handle floors, walls, bathrooms, kitchens, and outdoor spaces. Expert installation of ceramic, porcelain, natural stone, and decorative tiles with precision and attention to detail.",
+    image: "/tile/person-wearing-glove-that-says-uninterested-it.jpg",
     details: [
-      "Decorative Concrete",
-      "Paved Driveways",
-      "Sidewalks (Banquetas)",
-      "Walkways & Paths",
-      "Residential Concrete Floors",
-      "Custom Decorative Designs",
+      "Ceramic & Porcelain Tile",
+      "Natural Stone Installation",
+      "Floor & Wall Tiling",
+      "Bathroom & Kitchen Backsplashes",
+      "Outdoor Tile Applications",
+      "Custom Patterns & Designs",
     ],
   },
   {
     id: "04",
-    title: "Landscaping Services",
-    subtitle: "Property Beautification",
-    description: "Professional landscaping services to complete your property's transformation.",
-    image: "/professional-landscaping-residential-property-san-.jpg",
-    details: ["Landscape Design & Installation", "Residential Landscaping", "Property Beautification"],
+    title: "Professional Flooring",
+    subtitle: "All Types",
+    description: "Complete flooring services including hardwood, laminate, vinyl, and tile. Expert installation with quality materials and professional craftsmanship.",
+    image: "/floring/beautiful-kitchen-interior-design (1).jpg",
+    details: ["Hardwood Flooring", "Laminate & Vinyl Installation", "Tile Flooring", "Floor Repairs & Refinishing"],
   },
 ]
 
@@ -94,8 +94,8 @@ export function Services() {
             className="mb-16 md:mb-24"
           >
             <h2 className="font-serif text-4xl md:text-6xl lg:text-7xl text-[#f8f6f1] leading-[1.1]">
-              Professional <span className="italic text-[#a65d3f]">stucco</span>
-              <br className="hidden md:block" /> & construction services
+              Professional <span className="italic text-[#a65d3f]">decking & fencing</span>
+              <br className="hidden md:block" /> construction services
             </h2>
           </motion.div>
 

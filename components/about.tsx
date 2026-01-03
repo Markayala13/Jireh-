@@ -30,9 +30,9 @@ function AnimatedNumber({ value, suffix, isInView }: { value: number; suffix: st
 }
 
 const stats = [
-  { value: 8, suffix: "+", label: "Years of Excellence" },
-  { value: 30, suffix: "+", label: "Years Team Experience" },
+  { value: 20, suffix: "+", label: "Years of Excellence" },
   { value: 100, suffix: "%", label: "Client Satisfaction" },
+  { value: 500, suffix: "+", label: "Projects Completed" },
 ]
 
 export function About() {
@@ -45,7 +45,7 @@ export function About() {
     <section id="about" className="py-24 md:py-40 bg-[#f8f6f1] relative overflow-hidden" ref={ref}>
       {/* Large background text - Updated brand name */}
       <div className="absolute top-1/2 left-0 -translate-y-1/2 pointer-events-none">
-        <span className="font-serif text-[20vw] font-light text-[#e8e4dc]/50 leading-none select-none">BRAVO</span>
+        <span className="font-serif text-[20vw] font-light text-[#e8e4dc]/50 leading-none select-none">JIREH</span>
       </div>
 
       <div className="relative z-10 px-6 md:px-12">
@@ -71,12 +71,12 @@ export function About() {
               transition={{ duration: 1, delay: 0.2 }}
             >
               <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-[1.1] text-[#1a1a1a] mb-8">
-                San Diego's trusted
-                <span className="italic text-[#a65d3f]"> stucco experts</span>
+                Seattle's trusted
+                <span className="italic text-[#a65d3f]"> decking & fencing experts</span>
               </h2>
               <p className="text-[#6b6560] text-lg leading-relaxed max-w-lg">
-                With 8 years of company experience and team members bringing up to 30 years of construction expertise,
-                Adrian Bravo Stucco & Construction delivers professional results you can trust.
+                With over 20 years of experience in the construction industry,
+                Jireh Decking & Fences delivers professional results you can trust.
               </p>
             </motion.div>
 
@@ -89,13 +89,13 @@ export function About() {
             >
               <div className="space-y-8 mb-12">
                 <p className="text-[#6b6560] leading-relaxed">
-                  Proudly serving all of San Diego County from border to border, with specialized experience throughout
-                  the coastal areas. We specialize in complete interior and exterior stucco services, tile installation,
-                  decorative concrete, and professional landscaping.
+                  Proudly serving the Seattle, WA area with over 20 years of experience. We specialize in custom decking,
+                  quality fencing, ceramic tile installation, and professional flooring services for residential and
+                  commercial properties.
                 </p>
                 <p className="text-[#6b6560] leading-relaxed">
-                  Every project we undertake receives our complete attention. From stucco repairs to comprehensive
-                  installations, we approach each task with the same dedication to perfection that defines our
+                  Every project we undertake receives our complete attention. From deck installations to comprehensive
+                  renovations, we approach each task with the same dedication to perfection that defines our
                   reputation.
                 </p>
               </div>
@@ -127,8 +127,8 @@ export function About() {
             className="mt-24 md:mt-32 relative h-[30vh] md:h-[40vh] overflow-hidden rounded-sm"
           >
             <img
-              src="/stu.png"
-              alt="Master stucco craftsman at work"
+              src="/hero2.jpeg"
+              alt="Professional decking and construction work"
               loading="lazy"
               className="w-full h-full object-cover"
             />

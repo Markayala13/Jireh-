@@ -7,30 +7,39 @@ import { Star, ArrowLeft, ArrowRight, Quote } from "lucide-react"
 const testimonials = [
   {
     id: 1,
-    name: "Maria Rodriguez",
-    title: "Homeowner, La Jolla",
+    name: "Michael Johnson",
+    title: "Homeowner, Bellevue",
     quote:
-      "Adrian and his team did an exceptional job on our exterior stucco. The smooth finish is flawless and they completed the work on time. Highly recommend for any stucco project in San Diego.",
+      "Jireh Decking & Fences transformed our backyard with a beautiful composite deck. The craftsmanship is outstanding and they completed the work on time. Highly recommend for any decking project in Seattle.",
     rating: 5,
-    project: "Exterior Stucco",
+    project: "Custom Decking",
   },
   {
     id: 2,
-    name: "David Thompson",
-    title: "Homeowner, Coronado",
+    name: "Sarah Williams",
+    title: "Homeowner, Tacoma",
     quote:
-      "Professional, punctual, and meticulous. The tile work in our bathroom exceeded our expectations. They handled everything from custom cuts to installation with precision.",
+      "Professional, punctual, and meticulous. The ceramic tile work in our bathroom exceeded our expectations. They handled everything from custom cuts to installation with precision.",
     rating: 5,
-    project: "Tile Installation",
+    project: "Ceramic Tile Installation",
   },
   {
     id: 3,
-    name: "Jennifer Martinez",
-    title: "Homeowner, Carlsbad",
+    name: "Robert Anderson",
+    title: "Homeowner, Spanaway",
     quote:
-      "From quote to completion, the experience was seamless. Our new decorative concrete driveway looks amazing. The team was professional and left the site clean every day.",
+      "From quote to completion, the experience was seamless. Our new privacy fence looks amazing and provides the security we needed. The team was professional and left the site clean every day.",
     rating: 5,
-    project: "Decorative Concrete",
+    project: "Quality Fencing",
+  },
+  {
+    id: 4,
+    name: "Lisa Martinez",
+    title: "Homeowner, Renton",
+    quote:
+      "We couldn't be happier with our new hardwood floors. The installation was flawless and the team was incredibly professional. They truly care about their work and it shows in the final result.",
+    rating: 5,
+    project: "Hardwood Flooring",
   },
 ]
 
@@ -102,7 +111,7 @@ export function Reviews() {
               </div>
 
               <p className="text-[#f8f6f1]/80 mb-12 max-w-md">
-                Trusted by homeowners throughout San Diego County. Our reputation is built on delivering quality
+                Trusted by homeowners throughout Seattle and surrounding areas. Our reputation is built on delivering quality
                 craftsmanship, one project at a time.
               </p>
 

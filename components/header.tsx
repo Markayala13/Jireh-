@@ -39,8 +39,8 @@ export function Header() {
             className="flex items-center -ml-16 md:ml-0"
           >
             <Image
-              src="/logobg.png"
-              alt="Adrian Bravo - Stucco & Construction"
+              src="/logo/logo-removebg-preview.png"
+              alt="Jireh Decking & Fences"
               width={612}
               height={408}
               className="w-64 md:w-80 h-auto mt-10 md:mt-20"
@@ -80,7 +80,7 @@ export function Header() {
               onClick={() => scrollToSection("contact")}
               className="hidden md:flex items-center gap-2 text-[13px] tracking-[0.15em] uppercase text-[#f8f6f1] bg-[#1a1a1a] px-6 py-3 hover:bg-[#a65d3f] transition-colors duration-500"
             >
-              Free Stucco Estimate
+              Free Estimate
               <ArrowUpRight className="w-4 h-4" />
             </button>
 
@@ -134,7 +134,7 @@ export function Header() {
                 onClick={() => scrollToSection("contact")}
                 className="mt-4 text-[13px] tracking-[0.15em] uppercase text-[#1a1a1a] bg-[#f8f6f1] px-8 py-4"
               >
-                Free Stucco Estimate
+                Free Estimate
               </motion.button>
             </nav>
           </motion.div>

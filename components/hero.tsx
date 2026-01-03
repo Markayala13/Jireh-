@@ -45,8 +45,8 @@ export function Hero() {
           className="pt-28 md:pt-32 px-6 md:px-12 flex justify-between items-start"
         >
           <div className="hidden lg:flex items-center gap-12 text-[11px] tracking-[0.3em] uppercase text-[#6b6560] ml-auto">
-            <span>San Diego County</span>
-            <span>Expert Stucco Services</span>
+            <span>Seattle, WA</span>
+            <span>20+ Years Experience</span>
           </div>
         </motion.div>
 
@@ -63,7 +63,7 @@ export function Hero() {
                 transition={{ duration: 1.2, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
                 className="block font-light"
               >
-                Expert stucco
+                Expert Decking
               </motion.span>
               <motion.span
                 initial={{ opacity: 0, y: 100 }}
@@ -71,7 +71,7 @@ export function Hero() {
                 transition={{ duration: 1.2, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
                 className="block font-light italic text-[#a65d3f]"
               >
-                & construction
+                & Fencing
               </motion.span>
             </motion.h1>
 
@@ -82,7 +82,7 @@ export function Hero() {
               transition={{ duration: 1, delay: 0.9 }}
               className="text-center mt-8 md:mt-12 text-[15px] md:text-lg text-[#6b6560] max-w-xl mx-auto leading-relaxed tracking-wide"
             >
-              Professional stucco, tile, concrete, and landscaping services for San Diego County homeowners who demand
+              Professional decking, fencing, ceramic tile, and flooring services for Seattle homeowners who demand
               quality craftsmanship.
             </motion.p>
 
@@ -97,7 +97,7 @@ export function Hero() {
                 onClick={() => scrollToSection("contact")}
                 className="group flex items-center gap-3 text-[13px] tracking-[0.15em] uppercase text-[#f8f6f1] bg-[#1a1a1a] px-8 py-4 hover:bg-[#a65d3f] transition-all duration-500"
               >
-                Get FREE Stucco Estimate
+                Get FREE Estimate
                 <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300" />
               </button>
               <button
@@ -121,8 +121,8 @@ export function Hero() {
         >
           <div className="absolute inset-x-6 md:inset-x-12 inset-y-0 overflow-hidden">
             <img
-              src="/professional-stucco-exterior-work-on-luxury-home-s.jpg"
-              alt="Professional stucco work"
+              src="/hero.jpg"
+              alt="Professional decking and construction work"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#f8f6f1] via-transparent to-transparent" />

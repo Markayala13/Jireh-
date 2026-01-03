@@ -6,14 +6,23 @@ import { Play } from "lucide-react"
 
 export function VideoSection() {
   const ref = useRef(null)
-  const videoRef = useRef<HTMLVideoElement>(null)
+  const videoRef1 = useRef<HTMLVideoElement>(null)
+  const videoRef2 = useRef<HTMLVideoElement>(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
-  const [isPlaying, setIsPlaying] = useState(false)
+  const [isPlaying1, setIsPlaying1] = useState(false)
+  const [isPlaying2, setIsPlaying2] = useState(false)
 
-  const handlePlayClick = () => {
-    if (videoRef.current) {
-      videoRef.current.play()
-      setIsPlaying(true)
+  const handlePlayClick1 = () => {
+    if (videoRef1.current) {
+      videoRef1.current.play()
+      setIsPlaying1(true)
+    }
+  }
+
+  const handlePlayClick2 = () => {
+    if (videoRef2.current) {
+      videoRef2.current.play()
+      setIsPlaying2(true)
     }
   }
 
@@ -56,43 +65,80 @@ export function VideoSection() {
               <span className="italic text-[#a65d3f]">craftsmanship</span>
             </h2>
             <p className="text-[#c4bdb2] text-lg max-w-2xl mx-auto">
-              Watch how we transform homes throughout San Diego County with professional stucco, tile, and construction services.
+              Watch how we transform homes throughout Seattle with professional decking, fencing, ceramic tile, and flooring services.
             </p>
           </motion.div>
 
-          {/* Video container */}
-          <motion.div
-            initial={{ opacity: 0, y: 60 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 1, delay: 0.4 }}
-            className="relative aspect-[9/16] w-full max-w-[380px] md:max-w-[450px] max-h-[680px] md:max-h-[800px] mx-auto overflow-hidden rounded-sm"
-          >
-            <video
-              ref={videoRef}
-              controls
-              poster="/stu.png"
-              className="w-full h-full object-cover"
-              preload="metadata"
-              loading="lazy"
-              onPlay={() => setIsPlaying(true)}
-              onPause={() => setIsPlaying(false)}
+          {/* Video containers - Grid layout */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-[950px] mx-auto">
+            {/* Video 1 */}
+            <motion.div
+              initial={{ opacity: 0, y: 60 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 1, delay: 0.4 }}
+              className="relative aspect-[9/16] w-full max-w-[380px] md:max-w-[450px] max-h-[680px] md:max-h-[800px] mx-auto overflow-hidden rounded-sm"
             >
-              <source src="/promo-video.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-
-            {/* Play button overlay */}
-            {!isPlaying && (
-              <button
-                onClick={handlePlayClick}
-                className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors duration-300 group"
+              <video
+                ref={videoRef1}
+                controls
+                poster="/hero2.jpeg"
+                className="w-full h-full object-cover"
+                preload="metadata"
+                loading="lazy"
+                onPlay={() => setIsPlaying1(true)}
+                onPause={() => setIsPlaying1(false)}
               >
-                <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-[#a65d3f] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <Play className="w-10 h-10 md:w-12 md:h-12 text-[#f8f6f1] fill-[#f8f6f1] ml-1" />
-                </div>
-              </button>
-            )}
-          </motion.div>
+                <source src="/videos/1.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+
+              {/* Play button overlay */}
+              {!isPlaying1 && (
+                <button
+                  onClick={handlePlayClick1}
+                  className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors duration-300 group"
+                >
+                  <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-[#a65d3f] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <Play className="w-10 h-10 md:w-12 md:h-12 text-[#f8f6f1] fill-[#f8f6f1] ml-1" />
+                  </div>
+                </button>
+              )}
+            </motion.div>
+
+            {/* Video 2 */}
+            <motion.div
+              initial={{ opacity: 0, y: 60 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 1, delay: 0.6 }}
+              className="relative aspect-[9/16] w-full max-w-[380px] md:max-w-[450px] max-h-[680px] md:max-h-[800px] mx-auto overflow-hidden rounded-sm"
+            >
+              <video
+                ref={videoRef2}
+                controls
+                poster="/hero.jpg"
+                className="w-full h-full object-cover"
+                preload="metadata"
+                loading="lazy"
+                onPlay={() => setIsPlaying2(true)}
+                onPause={() => setIsPlaying2(false)}
+              >
+                <source src="/videos/2.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+
+              {/* Play button overlay */}
+              {!isPlaying2 && (
+                <button
+                  onClick={handlePlayClick2}
+                  className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors duration-300 group"
+                >
+                  <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-[#a65d3f] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <Play className="w-10 h-10 md:w-12 md:h-12 text-[#f8f6f1] fill-[#f8f6f1] ml-1" />
+                  </div>
+                </button>
+              )}
+            </motion.div>
+          </div>
         </div>
       </div>
     </section>
