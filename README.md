@@ -1,30 +1,56 @@
-# Luxury handyman website
+# Jireh Decking & Fences
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Professional website for Jireh Decking & Fences - Seattle's trusted decking, fencing, ceramic tile, and flooring experts.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/marcos-projects-25a1fcf4/v0-luxury-handyman-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/v2rIyP178wf)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Markayala13/Jireh-)
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+Modern, luxury website showcasing professional decking, fencing, ceramic tile, and flooring services in the Seattle/Spanaway, WA area.
+
+**Features:**
+- Responsive design optimized for all devices
+- Interactive project galleries with smooth animations
+- Dual video showcase
+- Customer testimonials
+- Contact form with service selection
+- Mobile-friendly CTA bar
+- Optimized images for fast loading
+
+## Tech Stack
+
+- **Framework:** Next.js 16.0.10
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+
+## Business Information
+
+- **Location:** 108 163rd St S, Spanaway, WA 98387
+- **Phone:** (425) 615-3720 / (253) 298-1154
+- **Email:** Jirehdeckings2022@gmail.com
+- **Experience:** 20+ Years
+
+## Getting Started
+
+Install dependencies:
+```bash
+npm install
+```
+
+Run the development server:
+```bash
+npm run dev
+```
+
+Build for production:
+```bash
+npm run build
+```
 
 ## Deployment
 
-Your project is live at:
+Ready to deploy on Vercel with zero configuration.
 
-**[https://vercel.com/marcos-projects-25a1fcf4/v0-luxury-handyman-website](https://vercel.com/marcos-projects-25a1fcf4/v0-luxury-handyman-website)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/v2rIyP178wf](https://v0.app/chat/v2rIyP178wf)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Click the button above or manually deploy by connecting your GitHub repository to Vercel.
